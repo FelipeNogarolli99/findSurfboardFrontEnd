@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-function Footer(){
-
-    return(
-     <footer>
-        <p>
-            <span className="bold"> Find a Board</span> &copy; 2025 
-=======
 import styles from "./Footer.module.css"
 
 function Footer(){
@@ -14,9 +6,11 @@ function Footer(){
      <footer className={styles.footer}>
         <p>
             <span className="bold"> Find a SurfBoard</span> &copy; 2025 
->>>>>>> branch_nav-footer
         </p>
+        <h1> teste</h1>
      </footer>
+
+
     )
 }
 
