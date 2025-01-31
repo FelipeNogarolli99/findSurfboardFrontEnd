@@ -7,7 +7,6 @@ function Footer(){
         <p>
             <span className="bold"> Find a SurfBoard</span> &copy; 2025 
         </p>
-        <h1> teste</h1>
      </footer>
 
 
