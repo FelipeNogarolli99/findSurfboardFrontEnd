@@ -7,10 +7,13 @@ import Footer from "./components/layout/Footer";
 
 import Container from"./components/layout/Container"
 
+import { UserProvider } from "./context/UserContext";
+
 
 function App() {
   return (
     <Router>
+      <UserProvider>
       <NavBar/>
       <Container>
       <Routes>
@@ -20,6 +23,7 @@ function App() {
       </Routes>
       </Container>
       <Footer/> 
+      </UserProvider>
     </Router>
   );
 }
